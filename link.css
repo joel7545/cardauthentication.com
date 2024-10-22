@@ -274,7 +274,7 @@ body{
 
 
 
-@media (max-width:2040px){
+@media (max-width:480px){
 
     .logo{
      /* border: 1px solid #ffffff51; */
@@ -359,7 +359,7 @@ body{
      border: 1px solid rgba(128, 128, 128, 0.706);
      border-radius: 10px;
      width: 410px;
-     height: 470px;
+     height: 420px;
      position:absolute;
      top: 180vh;
      left: 5%;
