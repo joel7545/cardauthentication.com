@@ -194,7 +194,7 @@ body{
     button:hover{
      background-color: rgba(0, 255, 255, 0.564);
     }
- 
+
     h2{
      width: 350px;
      font-size: 19px;
@@ -204,7 +204,10 @@ body{
      left: 7%;
      font-weight: 300;
     }
- 
+
+    .img4{
+    display: none;
+    }
     
     .font1{
      font-size: 50px;
@@ -213,6 +216,7 @@ body{
      position: absolute;
      top: 229vh;
      left: 5%;
+     display: none;
     }
  
     .font2{
@@ -454,7 +458,7 @@ body{
     button:hover{
      background-color: rgba(0, 255, 255, 0.564);
     }
- 
+    
     h2{
      width: 350px;
      font-size: 19px;
@@ -464,7 +468,10 @@ body{
      left: 7%;
      font-weight: 300;
     }
- 
+
+    .img4{
+    display: none;
+    }
     
     .font1{
      font-size: 50px;
@@ -473,6 +480,7 @@ body{
      position: absolute;
      top: 229vh;
      left: 5%;
+     display: none;
     }
  
     .font2{
