@@ -272,303 +272,310 @@ footer{
 
 @media (min-width: 481px) and (max-width:640px){
 
-    .logo{
-     /* border: 1px solid #ffffff51; */
-     height: 100px;
-     width: 100px;
-     margin-top: 20px;
-     margin-left: 25px;
-     left: 10%;
+       body{
+        overflow-x: hidden;
     }
- 
-    h1{
-     font-size: 50px;
-     color: #fff;
-     line-height: 80px;
-     position: absolute;
-     top: 17vh;
-     left: 5%;
-    }
- 
-    h4{
-     width: 410px;
-     font-size: 27px;
-     color:grey;
-     position: absolute;
-     top: 70vh;
-     left: 5%;
-     font-weight: 300;
-    }
- 
-    .img2{
-     position: absolute;
-     top: 90vh;
-     height: 350px;
-     width: 500px;
-    }
- 
-    .circle{
-     height: 150px;
-     width: 150px;
-     border-radius: 50%;
-     border: 2px solid aqua;
-     justify-content: center;
-     text-align: center;
-     position: relative;
-     top: 140vh;
-     margin: 0 5%;
-     cursor: pointer;
-    }
- 
-    h3{
-     width: 100px;
-     color: aqua;
-     font-size: 24px;
-     font-weight: 400;
-     margin-top: 45px;
-     margin-left: 20px;
-    }
- 
-    i{
-     color: #ffffffbb;
-     position: absolute;
-     font-size: 30px;
-     top: 6vh;
-     left: 93px;
-     transition: .5s ease-in-out;
-    }
- 
-    .circle:hover{
-     background-color:rgba(0, 255, 255, 0.141);
-     border: 2px solid #fff;
-    }
- 
-    .img3{
-     position: absolute;
-     top: 162vh;
-     width: 200px;
-     height: 100px;
-     left: 30%;
-    }
-   
-    .form-box{
-     border: 1px solid rgba(128, 128, 128, 0.706);
-     border-radius: 10px;
-     width: 410px;
-     height: 470px;
-     position:absolute;
-     top: 180vh;
-     left: 5%;
-     background-color: #010114f7;
-     backdrop-filter: blur(20px);
-     scroll-behavior: smooth;
-    }
- 
-    .input1{
-     position: absolute;
-     width: 370px;
-     height: 50px;
-     left: 7%;
-     top: 2vh;
-     padding-left: 15px;
-     font-size: .9rem;
-     font-family: josefin sans, sans-serif;
-     color: rgba(0, 0, 0, 0.943);
-     border-radius: 10px;
-     background-color: rgb(249, 250, 251);
-     border-color: rgba(3, 7, 18, 0.443);  
-     outline-color:rgba(11, 69, 170, 0.893);
-    }
- 
-    .input2{
-     position: absolute;
-     width: 100px;
-     height: 50px;
-     left: 7%;
-     top: 10vh;
-     padding-left: 15px;
-     font-size: .9rem;
-     font-family: josefin sans, sans-serif;
-     color: rgba(0, 0, 0, 0.943);
-     border-radius: 10px;
-     background-color: rgb(249, 250, 251);
-     border-color: rgba(3, 7, 18, 0.443);  
-     outline-color:rgba(11, 69, 170, 0.893);
-    }
- 
-    .input3{
-     position: absolute;
-     width: 255px;
-     height: 50px;
-     left: 33%;
-     top: 10vh;
-     padding-left: 15px;
-     font-size: .9rem;
-     font-family: josefin sans, sans-serif;
-     color: rgba(0, 0, 0, 0.943);
-     border-radius: 10px;
-     background-color: rgb(249, 250, 251);
-     border-color: rgba(3, 7, 18, 0.443);  
-     outline-color:rgba(11, 69, 170, 0.893);
-    }
- 
-    .input4{
-     position: absolute;
-     width: 370px;
-     height: 50px;
-     left: 7%;
-     top: 18vh;
-     padding-left: 15px;
-     font-size: .9rem;
-     font-family: josefin sans, sans-serif;
-     color: rgba(0, 0, 0, 0.943);
-     border-radius: 10px;
-     background-color: rgb(249, 250, 251);
-     border-color: rgba(3, 7, 18, 0.443);  
-     outline-color:rgba(11, 69, 170, 0.893);
-    }
- 
-    button{
-     position: absolute;
-     width: 370px;
-     height: 50px;
-     left: 7%;
-     top: 30vh;
-     padding-left: 5px;
-     font-size: 1.1rem;
-     font-weight: 600;
-     font-family: josefin sans, sans-serif;
-     color:black;
-     border-radius: 10px;
-     background-color: aqua;
-     border-color: rgba(3, 7, 18, 0.443);  
-     outline-color:rgba(11, 69, 170, 0.893);
-     transition: .5s ease-in-out;
-     cursor: pointer;
-    }
- 
-    button:hover{
-     background-color: rgba(0, 255, 255, 0.564);
-    }
-
-    h2{
-     width: 350px;
-     font-size: 19px;
-     color:grey;
-     position: absolute;
-     top: 38vh;
-     left: 7%;
-     font-weight: 300;
-    }
-
-    .img4{
-    display: none;
-    }
-    
-    .font1{
-     font-size: 50px;
-     color: #fff;
-     line-height: 80px;
-     position: absolute;
-     top: 229vh;
-     left: 5%;
-     display: none;
-    }
- 
-    .font2{
-     width: 415px;
-     font-size: 23px;
-     color:grey;
-     position: absolute;
-     top: 240vh;
-     left: 5%;
-     font-weight: 300;
-    }
- 
-    footer{
-    border-top: 1px solid grey;
-    width: 435px;
-    height: 100px;
-    position: absolute;
-    top: 270vh;
-    left: 1%;
-    }
-    .copyright{
-     width: 400px;
-     position: absolute;
-     top: -3vh;
-     font-size: 17px;
-     color: #fff;
-     letter-spacing: 1px;
-    }
- 
-    .bxl-instagram{
-     font-size: 30px;
-     color: #fff;
-     position: absolute;
-     left:29% ;
-    }
- 
-    .bxl-facebook-square{
-     position: absolute;
-     font-size: 30px;
-     left: 41%;
-     color: #fff;
-    }
- 
-    .bxl-twitter{
-     position: absolute;
-     font-size: 30px;
-     left: 53%;
-     color: #fff;
-    }
-    .bxl-linkedin-square{
-     position: absolute;
-     font-size: 30px;
-     left:65%;
-     color: #fff;
+        .logo{
+         height: 100px;
+         width: 100px;
+        position: absolute;
+         left: 10%;
+        }
      
-    }
- 
+        h1{
+         width: 300px;
+         font-size: 50px;
+         color: #fff;
+         line-height: 80px;
+         position: absolute;
+         top: 17vh;
+         left: 7%;
+        }
+     
+        h4{
+         width:390px;
+         font-size: 24px;
+         color:rgb(133, 130, 130);
+         position: absolute;
+         top: 63vh;
+         left: 7%;
+         font-weight: 300;
+        }
+     
+        .img2{
+         position: absolute;
+         top: 82vh;
+         left: 1%;
+         height: 350px;
+         width: 450px;
+        }
+     
+        .circle{
+         height: 150px;
+         width: 150px;
+         border-radius: 50%;
+         border: 2px solid aqua;
+         justify-content: center;
+         text-align: center;
+         position: relative;
+         top: 125vh;
+         left: 35%;
+         cursor: pointer;
+        }
+     
+        h3{
+         width: 100px;
+         color: aqua;
+         font-size: 24px;
+         font-weight: 400;
+         margin-top: 45px;
+         margin-left: 20px;
+        }
+     
+        i{
+         color: #ffffffbb;
+         position: absolute;
+         font-size: 30px;
+         top: 6vh;
+         left: 93px;
+         transition: .5s ease-in-out;
+        }
+     
+        .circle:hover{
+         background-color:rgba(0, 255, 255, 0.141);
+         border: 2px solid #fff;
+        }
+     
+        .img3{
+         position: absolute;
+         top: 152vh;
+         width: 200px;
+         height: 100px;
+         left: 30%;
+        }
+       
+        .form-box{
+         border: 1px solid rgba(128, 128, 128, 0.706);
+         border-radius: 10px;
+         width: 90%;
+         height: 420px;
+         position:absolute;
+         top: 168vh;
+         left: 5%;
+         background-color: #010114f7;
+         backdrop-filter: blur(20px);
+         scroll-behavior: smooth;
+        }
+     
+        .input1{
+         position: absolute;
+         width: 87%;
+         height: 50px;
+         left: 7%;
+         top: 2vh;
+         padding-left: 15px;
+         font-size: .9rem;
+         font-family: josefin sans, sans-serif;
+         color: rgba(0, 0, 0, 0.943);
+         border-radius: 10px;
+         background-color: rgb(249, 250, 251);
+         border-color: rgba(3, 7, 18, 0.443);  
+         outline-color:rgba(11, 69, 170, 0.893);
+        }
+     
+        .input2{
+         position: absolute;
+         width: 22%;
+         height: 50px;
+         left: 7%;
+         top: 10vh;
+         padding-left: 15px;
+         font-size: .9rem;
+         font-family: josefin sans, sans-serif;
+         color: rgba(0, 0, 0, 0.943);
+         border-radius: 10px;
+         background-color: rgb(249, 250, 251);
+         border-color: rgba(3, 7, 18, 0.443);  
+         outline-color:rgba(11, 69, 170, 0.893);
+        }
+     
+        .input3{
+         position: absolute;
+         width: 60%;
+         height: 50px;
+         left: 33%;
+         top: 10vh;
+         padding-left: 15px;
+         font-size: .9rem;
+         font-family: josefin sans, sans-serif;
+         color: rgba(0, 0, 0, 0.943);
+         border-radius: 10px;
+         background-color: rgb(249, 250, 251);
+         border-color: rgba(3, 7, 18, 0.443);  
+         outline-color:rgba(11, 69, 170, 0.893);
+        }
+     
+        .input4{
+         position: absolute;
+         width: 87%;
+         height: 50px;
+         left: 7%;
+         top: 18vh;
+         padding-left: 15px;
+         font-size: .9rem;
+         font-family: josefin sans, sans-serif;
+         color: rgba(0, 0, 0, 0.943);
+         border-radius: 10px;
+         background-color: rgb(249, 250, 251);
+         border-color: rgba(3, 7, 18, 0.443);  
+         outline-color:rgba(11, 69, 170, 0.893);
+        }
+     
+        button{
+         position: absolute;
+         width:87%;
+         height: 50px;
+         left: 7%;
+         top: 28vh;
+         padding-left: 5px;
+         font-size: 1.1rem;
+         font-weight: 600;
+         font-family: josefin sans, sans-serif;
+         color:black;
+         border-radius: 10px;
+         background-color: aqua;
+         border-color: rgba(3, 7, 18, 0.443);  
+         outline-color:rgba(11, 69, 170, 0.893);
+         transition: .5s ease-in-out;
+         cursor: pointer;
+        }
+     
+        button:hover{
+         background-color: rgba(0, 255, 255, 0.564);
+        }
+    
+        h2{
+         width: 370px;
+         font-size: 19px;
+         color:grey;
+         position: absolute;
+         top: 38vh;
+         left: 7%;
+         font-weight: 300;
+        }
+    
+        .img4{
+            position: absolute;
+            top: 218vh;
+            left: 5%;
+            height: 350px;
+            width: 400px;
+        }
+     
+        .font1{
+         display: none;
+        }
+     
+        .font2{
+         width: 415px;
+         font-size: 23px;
+         color:grey;
+         position: absolute;
+         top: 260vh;
+         left: 5%;
+         font-weight: 300;
+        }
+     
+        footer{
+        border-top: 1px solid grey;
+        width: 435px;
+        height: 100px;
+        position: absolute;
+        top: 280vh;
+        left: 1%;
+        }
+        .copyright{
+         width: 400px;
+         position: absolute;
+         top: -3vh;
+         font-size: 17px;
+         color: #fff;
+         letter-spacing: 1px;
+        }
+     
+        .bxl-instagram{
+         font-size: 30px;
+         color: #fff;
+         position: absolute;
+         left:29% ;
+         top: 5vh;
+        }
+     
+        .bxl-facebook-square{
+         position: absolute;
+         font-size: 30px;
+         left: 41%;
+         color: #fff;
+         top: 5vh;
+        }
+     
+        .bxl-twitter{
+         position: absolute;
+         font-size: 30px;
+         left: 53%;
+         color: #fff;
+         top: 5vh;
+        }
+        .bxl-linkedin-square{
+         position: absolute;
+         font-size: 30px;
+         left:65%;
+         color: #fff;
+         top: 5vh;
+         
+        }
+
 }
 
 
 
-@media (max-width:390px){
-
+@media (max-width:480px){
+body{
+    overflow-x: hidden;
+}
     .logo{
-     /* border: 1px solid #ffffff51; */
      height: 100px;
      width: 100px;
-     margin-top: 20px;
-     margin-left: 25px;
+    position: absolute;
      left: 10%;
     }
  
     h1{
+     width: 300px;
      font-size: 50px;
      color: #fff;
      line-height: 80px;
      position: absolute;
      top: 17vh;
-     left: 5%;
+     left: 7%;
     }
  
     h4{
-     width: 410px;
-     font-size: 27px;
-     color:grey;
+     width:390px;
+     font-size: 24px;
+     color:rgb(133, 130, 130);
      position: absolute;
-     top: 70vh;
-     left: 5%;
+     top: 63vh;
+     left: 7%;
      font-weight: 300;
     }
  
     .img2{
      position: absolute;
-     top: 90vh;
+     top: 82vh;
+     left: 1%;
      height: 350px;
-     width: 500px;
+     width: 450px;
     }
  
     .circle{
@@ -579,8 +586,8 @@ footer{
      justify-content: center;
      text-align: center;
      position: relative;
-     top: 140vh;
-     margin: 0 5%;
+     top: 125vh;
+     left: 35%;
      cursor: pointer;
     }
  
@@ -609,7 +616,7 @@ footer{
  
     .img3{
      position: absolute;
-     top: 162vh;
+     top: 152vh;
      width: 200px;
      height: 100px;
      left: 30%;
@@ -618,10 +625,10 @@ footer{
     .form-box{
      border: 1px solid rgba(128, 128, 128, 0.706);
      border-radius: 10px;
-     width: 410px;
+     width: 90%;
      height: 420px;
      position:absolute;
-     top: 180vh;
+     top: 168vh;
      left: 5%;
      background-color: #010114f7;
      backdrop-filter: blur(20px);
@@ -630,7 +637,7 @@ footer{
  
     .input1{
      position: absolute;
-     width: 370px;
+     width: 87%;
      height: 50px;
      left: 7%;
      top: 2vh;
@@ -646,7 +653,7 @@ footer{
  
     .input2{
      position: absolute;
-     width: 100px;
+     width: 22%;
      height: 50px;
      left: 7%;
      top: 10vh;
@@ -662,7 +669,7 @@ footer{
  
     .input3{
      position: absolute;
-     width: 255px;
+     width: 60%;
      height: 50px;
      left: 33%;
      top: 10vh;
@@ -678,7 +685,7 @@ footer{
  
     .input4{
      position: absolute;
-     width: 370px;
+     width: 87%;
      height: 50px;
      left: 7%;
      top: 18vh;
@@ -694,10 +701,10 @@ footer{
  
     button{
      position: absolute;
-     width: 370px;
+     width:87%;
      height: 50px;
      left: 7%;
-     top: 30vh;
+     top: 28vh;
      padding-left: 5px;
      font-size: 1.1rem;
      font-weight: 600;
@@ -714,9 +721,9 @@ footer{
     button:hover{
      background-color: rgba(0, 255, 255, 0.564);
     }
-    
+
     h2{
-     width: 350px;
+     width: 370px;
      font-size: 19px;
      color:grey;
      position: absolute;
@@ -726,16 +733,14 @@ footer{
     }
 
     .img4{
-    display: none;
+        position: absolute;
+        top: 218vh;
+        left: 5%;
+        height: 350px;
+        width: 400px;
     }
-    
+ 
     .font1{
-     font-size: 50px;
-     color: #fff;
-     line-height: 80px;
-     position: absolute;
-     top: 229vh;
-     left: 5%;
      display: none;
     }
  
@@ -744,7 +749,7 @@ footer{
      font-size: 23px;
      color:grey;
      position: absolute;
-     top: 240vh;
+     top: 260vh;
      left: 5%;
      font-weight: 300;
     }
@@ -754,7 +759,7 @@ footer{
     width: 435px;
     height: 100px;
     position: absolute;
-    top: 270vh;
+    top: 280vh;
     left: 1%;
     }
     .copyright{
@@ -771,6 +776,7 @@ footer{
      color: #fff;
      position: absolute;
      left:29% ;
+     top: 5vh;
     }
  
     .bxl-facebook-square{
@@ -778,6 +784,7 @@ footer{
      font-size: 30px;
      left: 41%;
      color: #fff;
+     top: 5vh;
     }
  
     .bxl-twitter{
@@ -785,12 +792,14 @@ footer{
      font-size: 30px;
      left: 53%;
      color: #fff;
+     top: 5vh;
     }
     .bxl-linkedin-square{
      position: absolute;
      font-size: 30px;
      left:65%;
      color: #fff;
+     top: 5vh;
      
     }
  
